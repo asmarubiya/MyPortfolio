@@ -3,7 +3,7 @@
   <a href="https://rubiya.dev/" target="_blank">rubiya.dev</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./Images/readme-img.png" />
 </div>
 
 <br/>
