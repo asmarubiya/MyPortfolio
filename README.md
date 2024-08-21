@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://rubiya.vercel.app/" target="_blank">rubiya.tech</a>
+  <a href="https://rubiya.dev/" target="_blank">rubiya.dev</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
@@ -29,48 +29,43 @@
     <a href="https://github.com/asmarubiya/Portfolio/issues">Request Feature</a>
 </h3>
 
-## Built With
+## Overview
 
-My personal portfolio <a href="https://rubiya.vercel.app/" target="_blank">rubiya.tech</a> which features some of my GitHub projects as well as my resume and technical skills.<br/>
+Welcome to my portfolio website, <a href="https://rubiya.dev/" target="_blank">rubiya.dev</a>. This site serves as a comprehensive showcase of my work, highlighting selected GitHub projects, my resume, and an overview of my technical skills.
 
-This project was built using these technologies:
+This portfolio is designed to provide a clear, interactive experience, allowing visitors to explore my projects, understand my expertise, and connect with me easily.
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+## Technology Stack
+
+This project was crafted with a strong focus on modern web development technologies:
+
+- **React.js**: For building a dynamic and responsive user interface.
+- **Node.js** and **Express.js**: To manage the backend and server-side operations.
+- **CSS3**: For styling and creating an aesthetically pleasing design.
+- **VsCode**: As the primary code editor, ensuring efficient and streamlined development.
+- **Vercel**: For seamless deployment and hosting of the website.
 
 ## Features
 
-**📖 Multi-Page Layout**
-
-**🎨 Styled with React-Bootstrap and CSS with easy-to-customize colors**
-
-**📱 Fully Responsive**
+- **📖 Multi-Page Layout**: Organized structure for easy navigation.
+- **🎨 Customizable Styling**: Styled using React-Bootstrap and CSS, with easy-to-modify color schemes.
+- **📱 Fully Responsive Design**: Optimized for viewing on any device, ensuring accessibility and usability across platforms.
 
 ## Getting Started
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+Clone this repository to start working on it. Make sure you have `node.js` and `git` installed globally on your machine.
 
 ## 🛠 Installation and Setup Instructions
 
-1. Installation: `npm install`
+1. Install dependencies: `npm install`
+2. Run the application: `npm start`
 
-2. In the project directory, you can run: `npm start`
-
-Runs the app in development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+The app will run in development mode at [http://localhost:3000](http://localhost:3000), where you can see your changes live as you edit.
 
 ## Usage Instructions
 
-Open the project folder and navigate to `/src/components/`. <br/>
-You will find all the components used, and you can edit your information accordingly.
+All components are located in the `/src/components/` directory. You can easily edit the components to customize the content to your needs.
 
 ### Show your support
 
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/asmarubiya" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height="60px" width="217px" ></a>
+If you find this project useful or interesting, please consider giving it a ⭐ on GitHub to show your support!
