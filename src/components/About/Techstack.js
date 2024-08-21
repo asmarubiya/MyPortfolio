@@ -5,65 +5,60 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
   DiPython,
   DiGit,
   DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+  SiMongodb,
+  SiFirebase,
+  SiVisualstudiocode,
+  SiEclipseide,
+  SiAdobephotoshop,
+  SiCanva,
+} from "react-icons/si"; // Import icons for your tools
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <CgCPlusPlus /> {/* C++ can represent C as well */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiVisualstudiocode />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiEclipseide />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobephotoshop />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCanva />
+      </Col>
+      {/* You can add more tools like PicsArt and Notepad with custom icons or text */}
     </Row>
   );
 }

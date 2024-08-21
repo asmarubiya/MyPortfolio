@@ -14,16 +14,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3>Designed by Asma Rubiya</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {year} AR</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/asmarubiya"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://x.com/AsmaRubiya88"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/asma-rubiya-282565220/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -53,7 +53,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://www.instagram.com/beautifulspring456?igsh=NHJ6NG94NjM1Z2Q3"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

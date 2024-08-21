@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import pathfindingV2 from "../../Assets/Projects/pathfindingV2.png"; // Replace with actual path
+import java2048 from "../../Assets/Projects/java2048.png"; // Replace with actual path
+import youtubeClone from "../../Assets/Projects/youtubeClone.png"; // Replace with actual path
+import portfolio from "../../Assets/Projects/portfolio.png"; // Replace with actual path
+import web3Research from "../../Assets/Projects/web3Research.png"; // Replace with actual path
+import pathfindingV1 from "../../Assets/Projects/pathfindingV1.png"; // Replace with actual path
 
 function Projects() {
   return (
@@ -23,68 +23,67 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={pathfindingV2}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Pathfinding Visualizer V2.0"
+              description="An advanced pathfinding visualizer that demonstrates various algorithms for pathfinding, including A*, Dijkstra's, and more, with an improved user interface and additional features."
+              ghLink="https://github.com/asmarubiya/Pathfinding-Visualizer2.0" // Replace with your actual link
+              demoLink="https://pathfinding-visualizer-v2.vercel.app/" // Replace with your actual demo link
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={youtubeClone}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="YouTube Clone"
+              description="A clone of YouTube built with React, featuring video playback, user authentication, and a video search functionality."
+              ghLink="https://github.com/yourusername/youtube-clone" // Replace with your actual link
+              demoLink="https://youtube-clone-demo.com" // Replace with your actual demo link
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={portfolio}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Portfolio Website"
+              description="A personal portfolio website built with React and Node.js to showcase my projects and skills, featuring a responsive design and interactive elements."
+              ghLink="https://github.com/asmarubiya/MyPortfolio" // Replace with your actual link
+              demoLink="https://portfolio-demo.com" // Replace with your actual demo link
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={java2048}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="2048 Game with Java"
+              description="A classic 2048 game implemented in Java, focusing on core Java components and optimization for a smooth gaming experience."
+              ghLink="https://github.com/asmarubiya/2048game" // Replace with your actual link
+              demoLink="https://github.com/asmarubiya/2048game/blob/main/README.md" // Replace with your actual demo link
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={web3Research}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Web3 Research Paper"
+              description="A research paper on the workings of the Internet and Web3 technologies, published on Zenodo. It explores the foundational aspects and future implications of Web3."
+              ghLink="https://github.com/asmarubiya/Web3-ResearchPaper" // Replace with your actual link
+              demoLink="https://zenodo.org/records/13319235" // Replace with your actual demo link
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={pathfindingV1}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Pathfinding Visualizer V1.0"
+              description="An earlier version of the pathfinding visualizer, showcasing fundamental pathfinding algorithms and their visualization."
+              ghLink="https://github.com/asmarubiya/PathFindingVisualiser" // Replace with your actual link
+              demoLink="https://github.com/asmarubiya/PathFindingVisualiser/blob/main/README.md" // Replace with your actual demo link
             />
           </Col>
         </Row>

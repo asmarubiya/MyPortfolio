@@ -6,15 +6,14 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
 import { CgFileDocument } from "react-icons/cg";
+import { FaProjectDiagram } from "react-icons/fa"; // Import the project icon
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -94,17 +93,17 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="https://pathfinding-visualizer-0v2.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <FaProjectDiagram style={{ marginBottom: "2px" }} /> Pathfinding Visualizer
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/asmarubiya"
                 target="_blank"
                 className="fork-btn-inner"
               >

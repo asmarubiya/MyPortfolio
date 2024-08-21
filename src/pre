@@ -1,0 +1,13 @@
+import React from "react";
+import "./Preloader.css"; // Ensure this CSS file exists and is correctly styled
+
+function Preloader({ load }) {
+  return (
+    <div className={`preloader ${load ? 'show' : 'hide'}`}>
+      {/* Add your preloader content here */}
+      <div className="spinner"></div>
+    </div>
+  );
+}
+
+export default Preloader;
