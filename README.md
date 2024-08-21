@@ -18,8 +18,8 @@
   <a href="https://forthebadge.com" target="_blank">
     <img src="https://forthebadge.com/images/badges/open-source.svg" alt="Open Source" />
   </a> &nbsp;
-  <img src="https://img.shields.io/github/stars/asmarubiya/Portfolio?color=red&logo=github&style=for-the-badge" alt="GitHub Repo stars" /> &nbsp;
-  <img src="https://img.shields.io/github/forks/asmarubiya/Portfolio?color=red&logo=github&style=for-the-badge" alt="GitHub forks" />
+  <img src="https://img.shields.io/github/stars/asmarubiya/MyPortfolio?color=red&logo=github&style=for-the-badge" alt="GitHub Repo stars" /> &nbsp;
+  <img src="https://img.shields.io/github/forks/asmarubiya/MyPortfolio?color=red&logo=github&style=for-the-badge" alt="GitHub forks" />
 </div>
 
 <h3 align="center">
