@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://rubiya.dev/" target="_blank">rubiya.dev</a>
+  <a href="https://ar-portfolio-two.vercel.app/" target="_blank">rubiya.dev</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img.png" />
@@ -31,7 +31,7 @@
 
 ## Overview
 
-Welcome to my portfolio website, <a href="https://rubiya.dev/" target="_blank">rubiya.dev</a>. This site serves as a comprehensive showcase of my work, highlighting selected GitHub projects, my resume, and an overview of my technical skills.
+Welcome to my portfolio website, <a href="https://ar-portfolio-two.vercel.app/" target="_blank">rubiya.dev</a>. This site serves as a comprehensive showcase of my work, highlighting selected GitHub projects, my resume, and an overview of my technical skills.
 
 This portfolio is designed to provide a clear, interactive experience, allowing visitors to explore my projects, understand my expertise, and connect with me easily.
 
@@ -60,7 +60,7 @@ Clone this repository to start working on it. Make sure you have `node.js` and `
 1. Install dependencies: `npm install`
 2. Run the application: `npm start`
 
-The app will run in development mode at [http://localhost:3000](http://localhost:3000), where you can see your changes live as you edit.
+The app will run in development mode at [http://localhost:3000](https://ar-portfolio-two.vercel.app/), where you can see your changes live as you edit.
 
 ## Usage Instructions
 
