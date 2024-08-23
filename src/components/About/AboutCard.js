@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Asma Rubiya </span>
             from <span className="purple"> Bhimavaram, India.</span>
             <br />
-            I am currently pursuing B.tech 7th semister in the stream of Information Technology.
+            I am currently pursuing B.tech 7th semester in the stream of Information Technology.
             <br />
             I am an Undergraduate at SRKR Engineering College.
             
